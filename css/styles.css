@@ -1,1 +1,164 @@
 /* Test Css */
+
+*, html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(19, 66, 58);
+    padding: 7px;
+    margin: 1%;
+}
+
+nav>section{
+    display: flex;
+    align-items: center;
+}
+
+hr{
+    margin: 0%;
+}
+
+.logo-icon{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url(https://picsum.photos/200);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-item{
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.home-section{
+    padding: 1%;
+    color: white;
+}
+.article-home{
+    padding: 1%;
+    color: white;
+}
+.banner-container-home{
+    height: 258px;
+    border: 1px solid white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: white;
+}
+
+.profil-section{
+    padding: 1%;
+    color: white;
+}
+.article-profil{
+    padding: 1%;
+    color: white;
+}
+.banner-container-profil{
+    height: 258px;
+    border: 1px solid white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: white;
+}
+
+.education-section{
+    padding: 1%;
+    color: white;
+}
+.article-education{
+    padding: 1%;
+    color: white;
+}
+.banner-container-education{
+    height: 258px;
+    border: 1px solid white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.skill-section{
+    padding: 1%;
+    color: white;
+}
+.article-skill{
+    display: flex;
+    height: 100%;
+    justify-content: first baseline;
+    align-items: center;
+    margin: 1%;
+    color: white;
+}
+
+.div-soft-skill{
+    padding: 1%;
+    color: white;
+}
+
+.h1-skil{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.div-hard-skill{
+    padding: 1%;
+    color: white;
+}
+
+article.form table .table-row{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin-bottom: 7px;
+    border: 1px;
+    align-items: center;
+    color: white;
+}
+article.form table .table-row td.label{
+    width: 165px;
+    margin: 2px;
+}
+article.form table .table-row td.input-table{
+    margin-left: 0px;
+}
+article.form table .table-row td.input-table .input-text{
+    width: 250px;
+    margin: 0px;
+}
+article.form input#btn-submit{
+    width: 100%;
+    align-items: end;
+}
+
+.contact-me-section{
+    display: flex;
+    color: white;
+}
+
+.form-result{
+    height: 100px;
+    margin-top: 1%;
+    border: 1px solid white;
+    color: white;
+}
+
+.result-container{
+    width: 56.4%;
+    height: 100px;
+    color: white;
+}
