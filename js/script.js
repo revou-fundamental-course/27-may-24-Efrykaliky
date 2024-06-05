@@ -11,15 +11,19 @@ const navSlide = () => {
 };
 navSlide();
 
-
-//form 
+//form
 function inputForm() {
-  const nameInput    = document.forms["myform"]["name"].value;
-  const dateInput    = document.forms["myform"]["date"].value;
-  const genderInput  = document.forms["myform"]["gender"].value;
+  const nameInput = document.forms["myform"]["name"].value;
+  const dateInput = document.forms["myform"]["date"].value;
+  const genderInput = document.forms["myform"]["gender"].value;
   const messageInput = document.forms["myform"]["message"].value;
 
-  if (nameInput == "" || dateInput == "" || genderInput == "" || messageInput == ""){
+  if (
+    nameInput == "" ||
+    dateInput == "" ||
+    genderInput == "" ||
+    messageInput == ""
+  ) {
     alert("Data tidak boleh ada yang kosong");
     return false;
   }
@@ -28,9 +32,9 @@ function inputForm() {
   return false;
 }
 
-  function setSenderUI(nameInput, dateInput, genderInput, messageInput) {
-  document.getElementById('sender-name').innerHTML = nameInput;
-  document.getElementById('sender-date').innerHTML = dateInput;
-  document.getElementById('sender-gender').innerHTML = genderInput;
-  document.getElementById('sender-message').innerHTML = messageInput;
+function setSenderUI(nameInput, dateInput, genderInput, messageInput) {
+  document.getElementById("sender-name").innerHTML = nameInput;
+  document.getElementById("sender-date").innerHTML = dateInput;
+  document.getElementById("sender-gender").innerHTML = genderInput;
+  document.getElementById("sender-message").innerHTML = messageInput;
 }

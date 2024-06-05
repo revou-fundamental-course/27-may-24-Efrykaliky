@@ -1,4 +1,3 @@
-
 /* Template */
 :root {
   --primaryTextColor: #232e35;
@@ -7,7 +6,6 @@
 
   --borderColor: #f1f1f1;
   --lineColor: #d9d9d9;
- 
 
   --primaryBackgroundColor: #fff;
   --secondaryBackgroundColor: #fbfbfb;
@@ -430,14 +428,13 @@ Input [type="submit"]:hover {
   background-color: var(--primaryIconColorHover);
 }
 
-.result{
-  border: 1PX solid var(--secondaryTextColor);
+.result {
+  border: 1px solid var(--secondaryTextColor);
   border-radius: 1rem;
   width: 100%;
   margin: 4.3rem 0rem;
   padding: 11rem;
 }
-
 
 /* footer */
 footer {
@@ -470,7 +467,6 @@ footer {
 
 /* responsive set */
 @media screen and (max-width: 1000px) {
-
   p {
     font-size: 1.7rem;
     line-height: 1.8rem;
