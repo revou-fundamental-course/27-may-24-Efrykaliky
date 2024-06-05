@@ -1,134 +1,492 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Efry Portofolio</title>
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-    <nav>
-        <a href="file:///D:/Pelatihan%20RevoU2024/Tugas%20Mini%20Project%20RevoU/27-may-24-Efrykaliky/index.html">
-            <div class="logo-icon"></div>
-        </a>
-        <section>
-            <a class="nav-item" href="#home">Home</a>
-            <a class="nav-item" href="#profile">Profile</a>
-            <a class="nav-item" href="#education">Education</a>
-            <a class="nav-item" href="#skill">Skill</a>
-            <a class="nav-item" href="#contact-me">Contact Me</a>
-        </section>
-    </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Efry Kaliky</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
 
-    <!-- Home -->
-    <section id="home">
-        <header class="home-section">
-            <h1>Hello Guys 😀, Welcome to my website</h1>
-        </header>
+  <body>
+    <!-- header start-->
+    <header>
+      <!-- navigation bar -->
+      <div class="main-container">
+        <div class="nav">
+          <div class="logo">
+            <a href="index.html">EK</a>
+          </div>
 
-        <article class="article-home">
-            <p>Ini adalah contoh web hasil belajar saya bersama team RevoU pada bulan mei 2024</p>
-            <div class="banner-container-home">
-            </div>
-        </article>
-    </section>
-
-    <!-- Profile -->
-    <section id=`"profile">
-        <header class="profil-section">
-            <h1>My Profil</h1>
-        </header>
-        <article class="article-profil">
-            <div class="banner-container-profil"></div>
-        </article>
-    </section>
-
-    <!-- Education -->
-    <section id="education">
-        <header class="education-section">
-            <h1>My Education</h1>
-        </header>
-        <article class="article-education">
-            <div class="banner-container-education"></div>
-        </article>
-    </section>
-
-    <!-- Skill -->
-    <section id="skill">
-        <header class="skill-section">
-            <h1>My Skill</h1>
-        </header>
-        <article class="article-skill">
-            <div class="div-soft-skill">
-                <h1>Soft Skill:</h1>
-                <li class="h1-skill">Critical Thinking</li>
-                <li class="h1-skill">Creative Thinking</li>
-                <li class="h1-skill">Communication</li>
-                <li class="h1-skill">Team Work</li>
-                <li class="h1-skill">Problem Solving</li>
-                <li class="h1-skill">Adaptation</li>
-            </div>
-            <div class="div-hard-skill">
-                <h1>Hard Skill:</h1>
-                <li class="h1-skill">Microsoft Office</li>
-                <li class="h1-skill">Matlab</li>
-                <li class="h1-skill">Proteus</li>
-                <li class="h1-skill">HTML, CSS</li>
-                <li class="h1-skill">Phyton</li>
-                <li class="h1-skill">Electrical Engineer</li>
-            </div>
-        </article>
-    </section>
-
-    <!-- Contact Me -->
-    <section id="contact-me">
-        <header>
-            <h1>Contact Me</h1>
-        </header>
-
-        <section class="contact-me-section">
-            <!-- form -->
-            <section>
-                <form>
-                    <article class="form">
-                        <table>
-                            <tr class="table-row">
-                                <td class="label">Nama</td>
-                                <td>:</td>
-                                <td class="input-table"><input id="name" type="text" class="input-text"></input></td>
-                            </tr>
-                            <tr class="table-row">
-                                <td class="label">Tanggal Lahir</td>
-                                <td>:</td>
-                                <td class="input-table"><input id="TANGGAL LAHIR" type="date" class="input-text"></input></td>
-                            </tr>
-                            <tr class="table-row">
-                                <td class="label">Jenis Kelamin</td>
-                                <td>:</td>
-                                <td class="input-table"><input id="laki-laki" type="radio" value="laki-laki" name="JENIS KELAMIN"></input>
-                                <label for="laki-laki">laki-laki</label>
-                                <input id="perempuan" type="radio" value="perempuan" name="JENIS KELAMIN"></input>
-                                <label for="perempuan">perempuan</label>
-                                </td>
-                            </tr>
-                            <tr class="table-row"> 
-                            <td class="label"><b>Pesan</b></td>
-                            <td>:</td>
-                            <td class="input-table"><textarea placeholder="Ketik disini" class="input-text"></textarea></td>
-                            </tr>
-                        </table>
-                            <input type="submit" id="btn-submit" name="submit" align-items: center;>
-                    </article>
-                </form>
-            </section>
-
-            <!-- result -->
-            <section class="result-container">
-                <div class="form-result">
-
+          <nav>
+            <ul>
+              <li><a href="#profile">Home</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#skill">Skills</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li>
+                <a href="Curriculum Vitae.pdf" target="_blank">
+                  <button class="btn">Curriculum Vitae</button>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <!-- burger menu -->
+          <div class="burger">
+            <div class="line-1"></div>
+            <div class="line-2"></div>
+            <div class="line-3"></div>
+          </div>
+        </div>
+        <!-- content 1 profile-->
+        <section id="profile">
+          <div class="profile-left">
+            <h3 class="pre-title">My name is</h3>
+            <h1 class="profile-name">
+              Hi<span id="nama"> Efry Rinaldi Kaliy</span>
+              <p>
+                As an Electrical Engineer with more than 3 years of experience
+                interprise companies and start up. Proficient in electric power
+                desing and troubleshooting, Passionate about 3 phase power
+                control lines and machines.
+              </p>
+            </h1>
+          </div>
+          <div class="profile-right">
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 3</div>
+                  <img src="https://png.pngtree.com/png-clipart/20230914/original/pngtree-electrical-engineering-clipart-electrician-with-machines-and-tools-cartoon-vector-png-image_11092685.png">
                 </div>
-            </section>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 3</div>
+                  <img src="https://img.clipart-library.com/24/68c6c586-3569-4f1a-a079-cd955e423bcb.png">
+                  <div class="text"></div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <img src="https://png.pngtree.com/png-clipart/20230914/original/pngtree-electrical-engineering-clipart-an-electrical-worker-in-hard-hat-standing-beside-png-image_11092650.png">
+                  <div class="text"></div>
+                </div>
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                </div>
+                
+                <script>
+                let slideIndex = 0;
+                showSlides();
+                
+                function showSlides() {
+                  let i;
+                  let slides = document.getElementsByClassName("mySlides");
+                  let dots = document.getElementsByClassName("dot");
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                  }
+                  slideIndex++;
+                  if (slideIndex > slides.length) {slideIndex = 1}    
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active";
+                  setTimeout(showSlides, 5000); // Change image every 2 seconds
+                }
+                </script>
+          </div>
         </section>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- services start -->
+    <section id="services">
+      <div class="services main-container">
+        <h3 class="pre-title">Services</h3>
+        <h1 class="section-title services-title">Specialized In</h1>
+
+        <div class="grid-3">
+          <!-- service 1 -->
+          <div class="service">
+            <div class="service-icon">
+              <img
+                src="https://putramedikaltek.co.id/wp-content/uploads/2022/05/Produk-1-300x300.png"
+                width="200"
+                height="200"
+              />
+            </div>
+            <h4>Medical Gas Alarm</h4>
+            <p>
+              I work on and make several medical gas electronic devices such as
+              IoT masters, area alarms, and conventional alarms.
+            </p>
+          </div>
+
+          <!-- service 2 -->
+          <div class="service">
+            <div class="service-icon">
+              <img
+                src="https://putramedikaltek.co.id/wp-content/uploads/2022/05/Produk-4-300x300.png"
+                width="200"
+                height="200"
+              />
+            </div>
+            <h4>3 Phase Control Panel</h4>
+            <p>
+              The 3 phase machine control panel that I made is used to control
+              compress air and vacuum suction machines.
+            </p>
+          </div>
+
+          <!-- service 3 -->
+          <div class="service">
+            <div class="service-icon">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXSiYynQaAmg-sv7k83Y6wrzG4AFxy6i2ZXD-882fMVJvn4PC33jxONyU8UC01vRl3NYA&usqp=CAU"
+                width="200"
+                height="200"
+              />
+            </div>
+            <h4>Troubleshooting</h4>
+            <p>
+              I also carry out routine maintenance on products that have been
+              sold.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
-</body>
+    <!-- services end -->
+
+    <!-- education start -->
+    <section id="education">
+      <div class="education main-container">
+        <h3 class="pre-title">My Education</h3>
+        <h1 class="section-title">Featured Education</h1>
+
+        <div class="grid-3">
+          <!-- education 1 -->
+          <div class="education">
+            <div class="education-cover">
+              <img src="/SMP.jpg" alt="SMP" />
+            </div>
+            <div class="education-info">
+              <div class="education-title">
+                <h4>SMP Negeri 5 Kota Ternate</h4>
+                <a
+                  href="https://www.facebook.com/smpn5tte/"
+                  class="education-link"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-6 17c1.513-6.587 7-7.778 7-7.778v-2.222l5 4.425-5 4.464v-2.223c0 .001-3.78-.114-7 3.334z"
+                    />
+                  </svg>
+                </a>
+              </div>
+
+              <div class="education-tags">
+                <div>React</div>
+                <div>School</div>
+                <div>Exam</div>
+                <div>Graduation</div>
+              </div>
+              <p>
+                I attended one of the state junior high schools in Ternate City
+                and won 2nd place overall at the 3rd grade graduation.
+              </p>
+              <h1><p>2008 - 2011</p></h1>
+            </div>
+          </div>
+
+          <!-- education 2 -->
+          <div class="education">
+            <div class="education-cover">
+              <img src="/SMK.jpg" alt="SMK" />
+            </div>
+            <div class="education-info">
+              <div class="education-title">
+                <h4>SMK Negeri 2 Kota Ternate</h4>
+                <a
+                  href="https://www.smkn2ternate.sch.id/"
+                  class="education-link"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-6 17c1.513-6.587 7-7.778 7-7.778v-2.222l5 4.425-5 4.464v-2.223c0 .001-3.78-.114-7 3.334z"
+                    />
+                  </svg>
+                </a>
+              </div>
+
+              <div class="education-tags">
+                <div>React</div>
+                <div>School</div>
+                <div>Exam</div>
+                <div>Graduation</div>
+              </div>
+              <p>
+                I attended one of the state vocational schools in Ternate City
+                and majored in electrical engineering.
+              </p>
+              <h1><p>2011 - 2014</p></h1>
+            </div>
+          </div>
+
+          <!-- education 3 -->
+          <div class="education">
+            <div class="education-cover">
+              <img src="/UII.jpg" alt="S1" />
+            </div>
+            <div class="education-info">
+              <div class="education-title">
+                <h4>Universitas Islam Indonesia</h4>
+                <a href="https://industrial.uii.ac.id/" class="education-link">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-6 17c1.513-6.587 7   -7.778 7-7.778v-2.222l5 4.425-5 4.464v-2.223c0 .001-3.78-.114-7 3.334z"
+                    />
+                  </svg>
+                </a>
+              </div>
+
+              <div class="education-tags">
+                <div>React</div>
+                <div>School</div>
+                <div>thesis</div>
+                <div>Graduation</div>
+              </div>
+              <p>
+                I graduated from Bachelor of Electrical Engineering at the
+                Islamic University of Indonesia.
+              </p>
+              <h1><p>2014 - 2019</p></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- education end -->
+
+    <!-- skill start -->
+    <section id="skill">
+      <div class="skill main-container">
+        <h3 class="pre-title">acquired abilities</h3>
+        <h1 class="section-title">Skills</h1>
+
+        <div class="skill-grid">
+          <!-- soft skills -->
+          <div class="soft-skill">
+            <div class="soft">
+              <div class="line">
+                <div></div>
+              </div>
+
+              <div class="soft-skill-info">
+                <h3 class="soft-skill-title">
+                  <p>Soft Skill</p>
+                </h3>
+                <p>
+                  Soft skills are an important part that must be owned by every
+                  individual who wants to compete in the world of work. Because
+                  with soft skills we can adapt to the current world of work.
+                </p>
+                <p><li class="li-skill">Critical Thinking</li></p>
+                <p><li class="li-skill">Creative Thinking</li></p>
+                <p><li class="li-skill">Communication</li></p>
+                <p><li class="li-skill">Team Work</li></p>
+                <p><li class="li-skill">Problem Solving</li></p>
+                <p><li class="li-skill">Adaptation</li></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- hard skills -->
+          <div class="hard-skill">
+            <div class="hard">
+              <div class="line">
+                <div></div>
+              </div>
+
+              <div class="hard-skill-info">
+                <h3 class="hard-skill-title">
+                  <p>Hard Skill</p>
+                </h3>
+                <p>
+                  In addition to soft skills, hard skills are no less important
+                  because we will not be used in the world of work if we only
+                  have soft skills or hard skills, these two abilities must be
+                  balanced to overcome the problems that will be faced in the
+                  world of work.
+                </p>
+                <p><li class="li-skill">Electrical Engineer</li></p>
+                <p><li class="li-skill">CSS, HTML, JavaScript</li></p>
+                <p><li class="li-skill">Phyton</li></p>
+                <p><li class="li-skill">Proteus</li></p>
+                <p><li class="li-skill">MATLAB</li></p>
+                <p><li class="li-skill">Microsoft Office</li></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- skill end -->
+
+    <!-- contact start -->
+    <section id="contact">
+      <div class="contact main-container">
+        <h3 class="pre-title">contact</h3>
+        <h1 class="section-title">Message Us</h1>
+        <!-- Left -->
+        <div class="contact-left">
+          <form
+            class="contact-form"
+            name="myform"
+            action=""
+            autocomplete="off"
+            onsubmit=" return inputForm()"
+          >
+            <!-- Name -->
+            <label for="name">Your Name</label>
+            <input
+              required
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Type your name"
+              autofocus
+            />
+            <!-- Date -->
+            <label for="date">Date of Birth</label>
+            <input required type="date" id="date" name="date" />
+            <!-- Gender -->
+            <label for="gender">Type of Gender</label>
+            <select id="gender" name="gender">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+            <!-- Message -->
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Write something.."
+              style="height: 100px"
+              required
+            ></textarea>
+            <!-- Submit -->
+            <button type="submit" value="submit">Submit</button>
+          </form>
+          <div onload="renderTime" class="result">
+            <p></p>
+            <p></p>
+            <p>Name : <span id="sender-name"></span></p>
+            <p>Date of Birth : <span id="sender-date"></span></p>
+            <p>Gender : <span id="sender-gender"></span></p>
+            <p>Message : <span id="sender-message"></span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact end -->
+    <hr />
+    <!-- footer start -->
+    <footer>
+      <div class="footer-icon">
+        <p>Hubungi</p>
+        <a href="https://wa.me/6282271023118?text=Halo,%20salam%20kenal"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12.036 5.339c-3.635 0-6.591 2.956-6.593 6.589-.001 1.483.434 2.594 1.164 3.756l-.666 2.432 2.494-.654c1.117.663 2.184 1.061 3.595 1.061 3.632 0 6.591-2.956 6.592-6.59.003-3.641-2.942-6.593-6.586-6.594zm3.876 9.423c-.165.463-.957.885-1.337.942-.341.051-.773.072-1.248-.078-.288-.091-.657-.213-1.129-.417-1.987-.858-3.285-2.859-3.384-2.991-.099-.132-.809-1.074-.809-2.049 0-.975.512-1.454.693-1.653.182-.2.396-.25.528-.25l.38.007c.122.006.285-.046.446.34.165.397.561 1.372.611 1.471.049.099.083.215.016.347-.066.132-.099.215-.198.33l-.297.347c-.099.099-.202.206-.087.404.116.198.513.847 1.102 1.372.757.675 1.395.884 1.593.983.198.099.314.083.429-.05.116-.132.495-.578.627-.777s.264-.165.446-.099 1.156.545 1.354.645c.198.099.33.149.38.231.049.085.049.482-.116.945zm3.088-14.762h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-6.967 19.862c-1.327 0-2.634-.333-3.792-.965l-4.203 1.103 1.125-4.108c-.694-1.202-1.059-2.566-1.058-3.964.002-4.372 3.558-7.928 7.928-7.928 2.121.001 4.112.827 5.609 2.325s2.321 3.491 2.32 5.609c-.002 4.372-3.559 7.928-7.929 7.928z"
+            />
+          </svg>
+        </a>
+
+        <a href="https://www.instagram.com/rinaldi_1997/"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M15.233 5.488c-.843-.038-1.097-.046-3.233-.046s-2.389.008-3.232.046c-2.17.099-3.181 1.127-3.279 3.279-.039.844-.048 1.097-.048 3.233s.009 2.389.047 3.233c.099 2.148 1.106 3.18 3.279 3.279.843.038 1.097.047 3.233.047 2.137 0 2.39-.008 3.233-.046 2.17-.099 3.18-1.129 3.279-3.279.038-.844.046-1.097.046-3.233s-.008-2.389-.046-3.232c-.099-2.153-1.111-3.182-3.279-3.281zm-3.233 10.62c-2.269 0-4.108-1.839-4.108-4.108 0-2.269 1.84-4.108 4.108-4.108s4.108 1.839 4.108 4.108c0 2.269-1.839 4.108-4.108 4.108zm4.271-7.418c-.53 0-.96-.43-.96-.96s.43-.96.96-.96.96.43.96.96-.43.96-.96.96zm-1.604 3.31c0 1.473-1.194 2.667-2.667 2.667s-2.667-1.194-2.667-2.667c0-1.473 1.194-2.667 2.667-2.667s2.667 1.194 2.667 2.667zm4.333-12h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm.952 15.298c-.132 2.909-1.751 4.521-4.653 4.654-.854.039-1.126.048-3.299.048s-2.444-.009-3.298-.048c-2.908-.133-4.52-1.748-4.654-4.654-.039-.853-.048-1.125-.048-3.298 0-2.172.009-2.445.048-3.298.134-2.908 1.748-4.521 4.654-4.653.854-.04 1.125-.049 3.298-.049s2.445.009 3.299.048c2.908.133 4.523 1.751 4.653 4.653.039.854.048 1.127.048 3.299 0 2.173-.009 2.445-.048 3.298z"
+            />
+          </svg>
+        </a>
+
+        <a href="https://www.facebook.com/efry.rinaldikaliky"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"
+            />
+          </svg>
+        </a>
+
+        <a href="https://www.linkedin.com/in/efry-rinaldi-kaliky-263b83189/"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+            />
+          </svg>
+        </a>
+
+        <a href="https://github.com/Efrykaliky"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z"
+            />
+          </svg>
+        </a>
+      </div>
+      <p>2024 Copy right &#169; Portofolio Created By Efry Kaliky</p>
+    </footer>
+    <!-- footer end -->
+
+    <script src="js/script.js"></script>
+  </body>
 </html>
